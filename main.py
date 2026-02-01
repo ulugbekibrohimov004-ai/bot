@@ -295,7 +295,7 @@ async def new_movie_notification(message: Message):
 # ================= SERVER VA BOT (BIRGA) =================
 
 async def handle(request):
-    return web.Response(text="Bot ishlmoqda...")
+    return web.Response(text="Bot ishlamoqda...👍")
 
 async def start_web_server():
     app = web.Application()
@@ -317,3 +317,4 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         print("Bot to'xtadi")
+
